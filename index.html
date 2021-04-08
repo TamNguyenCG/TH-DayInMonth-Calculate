@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<form>
+    <div>
+    <h2 style="text-align: center;color: blue">Calculate Days in Month</h2>
+    <table style="margin: auto;border: 1px;background-color: white" onmouseenter="this.style.backgroundColor='#deb887'" onmouseleave="this.style.backgroundColor='white'">
+        <tr></tr>
+        <tr style="width: 150px">
+            <td >
+                <input type="number" id="ip" placeholder="Enter Month" min="1" max="12" style="width: 100px">
+                <!--<select name="" id="month">
+                    <option id="1" value="31">Tháng 1</option>
+                    <option id="2" value="28">Tháng 2</option>
+                    <option id="3" value="30">Tháng 3</option>
+                    <option id="4" value="31">Tháng 4</option>
+                    <option id="5" value="31">Tháng 5</option>
+                    <option id="6" value="30">Tháng 6</option>
+                    <option id="7" value="31">Tháng 7</option>
+                    <option id="8" value="31">Tháng 8</option>
+                    <option id="9" value="30">Tháng 9</option>
+                    <option id="10" value="31">Tháng 10</option>
+                    <option id="11" value="30">Tháng 11</option>
+                    <option id="12" value="31">Tháng 12</option>
+                </select>-->
+
+            </td>
+            <td style="width: 150px;text-align: center">
+                <button type="button" onclick="dayCalculate()" value="calculate" >Calculate</button>
+            </td>
+        </tr>
+        <tr><td colspan="2"><p id="result"><u>Result:</u></p></td></tr>
+    </table>
+    </div>
+</form>
+
+<script src="DayinMonth.js"></script>
+</body>
+
+</html>
